@@ -1,5 +1,6 @@
 // This is an advanced example of making simple signal with macroes and template meta programming
-
+// Please Note that this code has copied from Adrien Hamelin's blog
+// https://aboutcpp.wordpress.com/2015/01/16/an-update-on-a-simple-signal-system/
 #include <_regex.h>
 // signal.h --------------------------------------------------------------------
 //#pragma once
