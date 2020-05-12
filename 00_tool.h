@@ -1,5 +1,5 @@
-#ifndef ADVANCED_TEMPLATES__TOOL_H_
-#define ADVANCED_TEMPLATES__TOOL_H_
+#ifndef ADVANCED_TEMPLATES__00_TOOL_H_
+#define ADVANCED_TEMPLATES__00_TOOL_H_
 // First thing of meta programming is different from real programming.
 // The differences are like that.
 // 1 - structs = function -> In below example set_bool is like a function.
@@ -62,4 +62,4 @@ constexpr bool is_same_v = is_same<T, U>::value;
 // Finally we have our basic tools to build our new meta programs.
 // Note that all of these definitions and much more is available in standard library :)
 
-#endif //ADVANCED_TEMPLATES__TOOL_H_
+#endif //ADVANCED_TEMPLATES__00_TOOL_H_
