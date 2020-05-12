@@ -20,7 +20,7 @@ struct set_bool {
 // Our true_type struct will have it either, therefore we can use true_type as shortcut of set_bool<true>
 // Same dynamics are valid for false_type
 struct true_type : set_bool<true> {};
-struct false_type : set_bool<true> {};
+struct false_type : set_bool<false> {};
 
 // Since we have true and false values we can compare two types.
 // The tricky part is that branching of template programming is working like that.
