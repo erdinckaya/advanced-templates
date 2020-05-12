@@ -12,7 +12,7 @@
 // The tricky and actually weird part is `sizeof(Tuple) == -1`. The idea behind this to provide code will compile.
 // If you use `static_assert(false, "tuple_contains called on non tuple!");` code will not be compiled,
 // therefore we need something that always false, and here comes the tricky part. There is no such variable whose size
-// is -1 may be dark substance :), so that we can use that trick always inside of our template meta programming.
+// is -1 -may be dark substance :)-, so that we can use that trick always inside of our template meta programming.
 // Other important part is since we have covered our all legal cases, rest of the cases will be seen as error.
 template<typename Tuple, typename T>
 struct tuple_contains {
